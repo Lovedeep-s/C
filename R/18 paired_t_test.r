@@ -10,4 +10,5 @@ t.test(x = bp.before, y = bp.after, paired = T)
 #visualize
 bp.diff <- bp.after - bp.before
 bp.diff
-boxplot(bp.diff, main= "Effect of Medicine on BP", ylab = "Post Medicine -BP Difference")
+boxplot(bp.diff, main = "Effect of Medicine on BP",
+ylab = "Post Medicine -BP Difference")
