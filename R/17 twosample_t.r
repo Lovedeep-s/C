@@ -25,5 +25,6 @@ t.test(x = mc1, y = mc3, var.equal = F)
 #In this two sample t test the value of p is greater than 0.05,
 #hence we fail to reject the null hypothesis.
 
-#There are not sufficient evidences to prove that machine 1 and machine 3 produce
+#There are not sufficient evidences to prove that machine
+# 1 and machine 3 produce
 #different volumes.
