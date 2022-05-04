@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int a[10];
-int rear=0,front=0;
+int rear=-1,front=0;
 void nq();
 void dq();
 void print();
@@ -34,8 +34,9 @@ void nq()
     {
         for ( j = 0; j < i;j++)
         {
-            cin>>a[ j ];
             rear++;
+            cin>>a[ rear];
+            
 
         }
     }
