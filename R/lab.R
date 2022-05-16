@@ -1,0 +1,15 @@
+library(readr)
+cholA <- read_csv("D:/Cholesterol.csv")
+attach(cholA)
+hist(dif,main='Difference in Cholesterol
+Levels',xlab='Difference')
+t.test(After4weeks, Before,paired=T)
+m<-rbind(mean(Before),mean(After4weeks))
+s<-rbind(sd(Before),sd(After4weeks))
+r<-cbind(m,s)
+colnames(r)<-c('Mean','SD')
+rownames(r)<-c('Before','After4weeks')
+round(r,2)
+difference<-After4weeks-Before
+mean(difference)
+sd(difference)
